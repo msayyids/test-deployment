@@ -1,0 +1,130 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #FAFAFA;
+    font-family: 'Montserrat', sans-serif;
+    color: #1F2626;
+}
+
+nav {
+    position: sticky;
+    top:0;
+    background-color: #FAFAFA;
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+}
+
+.navbar {
+    text-align: center;
+    padding: 13px 0px;
+    box-shadow: 0 1px 2px 0 rgba(125, 125, 125, 0.2);
+}
+
+.navbar a {
+    
+    text-decoration: none;
+    padding: 0px 10px;
+    font-weight: bold;
+    color: #1F2626;
+    
+}
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.lefthero {
+    flex-direction: column;
+    margin-left: 56px;
+    margin-top:94px;
+}
+
+.lefthero-role {
+    font-weight: 600;
+    font-size: 23px;
+    color: #5222D0;
+}
+
+.righthero {
+    margin-left: 56px
+}
+
+
+.herobutton {
+    background-color: #5222D0;
+    color: white;
+    padding: 4px 6px;
+    border: 5px;
+    margin-top: 10px;
+}
+
+.project {
+    display: flex;
+    justify-content: center;
+    margin-top:50px ;
+}
+
+.card {
+    background-color: #F5F2FD;
+    margin: 0px 10px;
+    padding: 10px;
+    box-shadow: 1px 2px 2px 1px rgba(125, 125, 125, 0.2);
+    
+}
+
+.card img {
+    width: 300px;
+    height: 300px;
+}
+
+
+.contactform {
+    margin: 40px 50px;
+}
+ 
+.form {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+    background-color: #F5F2FD;
+    box-shadow: 1px 2px 2px 1px rgba(125, 125, 125, 0.2);
+}
+
+input,textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input,textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input:hover ,   textarea:hover {
+    padding: 10px;
+    border-color: transparent;
+    box-shadow: 0 0 0 1px rgb(172, 172, 172);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: fit-content;
+    margin: 10px 0px;
+    background-color: #5222D0;
+    color: white;
+}
+
+
